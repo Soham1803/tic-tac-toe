@@ -24,7 +24,7 @@ jobs:
         version: 8
 
     - name: Install dependencies
-      run: pnpm install
+      run: pnpm install --frozen-lockfile --ignore-optional
 
     - name: Run linting
       run: pnpm run lint

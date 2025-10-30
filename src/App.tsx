@@ -11,8 +11,8 @@ function App() {
 
   const handleGameStart = () => {
 
-    if(nPlayer <= 1 || gridSize <= 1 || gridSize > 10) {
-      alert("Number of players and grid size should be valid numbers, greater than 1 and less than 10!")
+    if(nPlayer <= 1 || gridSize <= 2 || gridSize > 10) {
+      alert("Number of players and grid size should be valid numbers (1 < player number < grid size +1 and 2 < grid size <= 10)!")
     } else if(nPlayer > (gridSize + 1)) {
       alert("Invalid game, number of players it too large!")
     } else {

@@ -1,0 +1,1037 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GameBoard Snapshots > should match 3x3 board snapshot > gameboard-3x3-2players 1`] = `
+<div>
+  <h3>
+    Game Board
+  </h3>
+  <p>
+    Number of Players: 
+    2
+  </p>
+  <p>
+    Grid Size: 
+    3
+  </p>
+  <div>
+    <p>
+      Chance of player 
+      1
+    </p>
+    <div
+      class="game-board"
+    >
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GameBoard Snapshots > should match 5x5 board snapshot > gameboard-5x5-4players 1`] = `
+<div>
+  <h3>
+    Game Board
+  </h3>
+  <p>
+    Number of Players: 
+    4
+  </p>
+  <p>
+    Grid Size: 
+    5
+  </p>
+  <div>
+    <p>
+      Chance of player 
+      1
+    </p>
+    <div
+      class="game-board"
+    >
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GameBoard Snapshots > should match large board snapshot > gameboard-8x8-6players 1`] = `
+<div>
+  <h3>
+    Game Board
+  </h3>
+  <p>
+    Number of Players: 
+    6
+  </p>
+  <p>
+    Grid Size: 
+    8
+  </p>
+  <div>
+    <p>
+      Chance of player 
+      1
+    </p>
+    <div
+      class="game-board"
+    >
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`GameBoard Snapshots > should match minimal board snapshot > gameboard-minimal 1`] = `
+<div>
+  <h3>
+    Game Board
+  </h3>
+  <p>
+    Number of Players: 
+    2
+  </p>
+  <p>
+    Grid Size: 
+    3
+  </p>
+  <div>
+    <p>
+      Chance of player 
+      1
+    </p>
+    <div
+      class="game-board"
+    >
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

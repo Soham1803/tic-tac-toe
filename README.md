@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+# 🎮 Tic-Tac-Toe Game - Interactive Multiplayer Grid Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, customizable **Tic-Tac-Toe game** built with **React**, **TypeScript**, and **Vite**. This interactive web application allows players to create custom game boards with variable grid sizes and support for multiple players.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎯 **Customizable Grid Size**: Choose grid dimensions from 3x3 up to 10x10
+- 👥 **Multiplayer Support**: Play with 2-6 players in a single game
+- 🎨 **Color-Coded Players**: Each player gets a unique color for easy identification
+- ✅ **Smart Win Detection**: Automatic winner detection for rows, columns, and diagonals
+- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
+- 🧪 **Comprehensive Testing**: Unit tests, integration tests, and snapshot tests
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: CSS3 with custom grid layouts
+- **Testing**: Vitest + Testing Library + Snapshot Testing
+- **Linting**: ESLint
+- **Icons**: Lucide React
+- **CI/CD**: GitHub Actions
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Prerequisites
+- Node.js (18.x or 20.x)
+- pnpm (recommended) or npm
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Local Development Setup
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd tic-tac-toe-game
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+2. **Install dependencies**
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3. **Start development server**
+   ```bash
+   pnpm dev
+   # or
+   npm run dev
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+4. **Open your browser**
+   ```
+   http://localhost:5173
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎮 How to Play
+
+1. **Set Game Parameters**:
+   - Enter number of players (2-6)
+   - Choose grid size (3x3 to 10x10)
+
+2. **Start Playing**:
+   - Players take turns clicking on empty cells
+   - Each player is assigned a unique color
+   - First player to get a complete row, column, or diagonal wins!
+
+3. **Win Conditions**:
+   - Complete horizontal line
+   - Complete vertical line
+   - Complete diagonal line (main or anti-diagonal)
+
+## 🧪 Testing Strategy
+
+Our comprehensive testing approach includes:
+
+### **Unit Tests**
+- ✅ **Utility Functions**: `checkWinner` logic with edge cases
+- ✅ **Component Logic**: Form validation, player cycling, grid initialization
+
+### **Integration Tests**
+- ✅ **User Interactions**: Form submissions, game flow, cell clicking
+- ✅ **Multiplayer Functionality**: Simultaneous moves, turn-taking
+
+### **End-to-End Tests**
+- ✅ **Complete Game Sessions**: From setup to win/loss detection
+- ✅ **Responsive Design**: Layout and functionality on different screen sizes
+
+Enjoy the game! May the best strategist win! 🏆

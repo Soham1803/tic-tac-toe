@@ -1,0 +1,132 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Game Progress Snapshots > should match game with some moves played > game-in-progress 1`] = `
+<div>
+  <h3>
+    Game Board
+  </h3>
+  <p>
+    Number of Players: 
+    2
+  </p>
+  <p>
+    Grid Size: 
+    3
+  </p>
+  <div>
+    <p>
+      Chance of player 
+      2
+    </p>
+    <div
+      class="game-board"
+    >
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: #3498db;"
+        >
+          <span>
+            1
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: #f1c40f;"
+        >
+          <span>
+            2
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: #3498db;"
+        >
+          <span>
+            1
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+      <div
+        class="board-row"
+      >
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+        <button
+          class="board-cell"
+          style="background-color: green;"
+        >
+          <span>
+            0
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Game Progress Snapshots > should match winning state snapshot > game-won 1`] = `
+<div>
+  <h3>
+    Game Board
+  </h3>
+  <p>
+    Number of Players: 
+    2
+  </p>
+  <p>
+    Grid Size: 
+    3
+  </p>
+  <h2>
+    Player 
+    1
+     Wins!
+  </h2>
+</div>
+`;

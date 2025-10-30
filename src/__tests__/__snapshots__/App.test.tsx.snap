@@ -1,0 +1,222 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App Snapshots > should match game started state snapshot > app-game-started 1`] = `
+<div>
+  <div>
+    <h3>
+      Game Board
+    </h3>
+    <p>
+      Number of Players: 
+      2
+    </p>
+    <p>
+      Grid Size: 
+      3
+    </p>
+    <div>
+      <p>
+        Chance of player 
+        1
+      </p>
+      <div
+        class="game-board"
+      >
+        <div
+          class="board-row"
+        >
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+        </div>
+        <div
+          class="board-row"
+        >
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+        </div>
+        <div
+          class="board-row"
+        >
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+          <button
+            class="board-cell"
+            style="background-color: green;"
+          >
+            <span>
+              0
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`App Snapshots > should match initial state snapshot > app-initial-state 1`] = `
+<div>
+  <div
+    class="form"
+  >
+    <div
+      class="form-element"
+    >
+      <label
+        class="label"
+        for="grid-size"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-grid2x2 lucide-grid-2x2"
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 3v18"
+          />
+          <path
+            d="M3 12h18"
+          />
+          <rect
+            height="18"
+            rx="2"
+            width="18"
+            x="3"
+            y="3"
+          />
+        </svg>
+         
+        <span>
+          Type the grid size (g -&gt; 2 &lt; g ≤ 10):
+        </span>
+         
+      </label>
+      <input
+        class="input"
+        id="grid-size"
+        name="grid-size"
+        placeholder="Type the grid size here..."
+        type="number"
+      />
+    </div>
+    <div
+      class="form-element"
+    >
+      <label
+        class="label"
+        for="player-number"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-users"
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+          />
+          <path
+            d="M16 3.128a4 4 0 0 1 0 7.744"
+          />
+          <path
+            d="M22 21v-2a4 4 0 0 0-3-3.87"
+          />
+          <circle
+            cx="9"
+            cy="7"
+            r="4"
+          />
+        </svg>
+         
+        <span>
+          Type the number of Players (&gt; 1):
+        </span>
+         
+      </label>
+      <input
+        class="input"
+        id="player-number"
+        name="player-number"
+        placeholder="Type the number of players here..."
+        type="number"
+      />
+    </div>
+    <button>
+      Start Game
+    </button>
+  </div>
+</div>
+`;
